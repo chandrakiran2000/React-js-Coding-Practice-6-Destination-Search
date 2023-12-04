@@ -1,0 +1,100 @@
+/* Write your CSS here */
+
+@media (max-width: 768px) {
+  .bg-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 100vh;
+    padding: 30px;
+    font-family: 'roboto';
+  }
+  .heading-card {
+    margin: 20px;
+    margin-left: 25px;
+    text-align: center;
+  }
+  .heading {
+    color: #0f172a;
+    font-size: 30px;
+  }
+  .search-card {
+    background-color: #f1f5f9;
+    height: 30px;
+    width: 220px;
+    display: flex;
+    border-radius: 10px;
+  }
+  .search {
+    background-color: #f1f5f9;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    height: 30px;
+    width: 195px;
+    font-size: 15px;
+    padding: 10px;
+    color: #252627;
+  }
+  .search-img {
+    height: 20px;
+    width: 20px;
+    margin-top: 5px;
+  }
+  .main-destination-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width: 768px) {
+  .bg-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: ;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding: 30px;
+    font-family: 'roboto';
+  }
+  .heading-card {
+    margin: 20px;
+  }
+  .heading {
+    color: #0f172a;
+    font-size: 40px;
+  }
+  .search-card {
+    background-color: #f1f5f9;
+    height: 30px;
+    width: 220px;
+    display: flex;
+    border-radius: 10px;
+  }
+  .search {
+    background-color: #f1f5f9;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    height: 30px;
+    width: 195px;
+    font-size: 15px;
+    padding: 10px;
+    color: #252627;
+  }
+  .search-img {
+    height: 20px;
+    width: 20px;
+    margin-top: 5px;
+  }
+  .main-destination-card {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+}

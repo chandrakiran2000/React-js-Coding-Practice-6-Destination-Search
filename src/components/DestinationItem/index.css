@@ -1,0 +1,14 @@
+/* Write your CSS here */
+
+.place-card {
+  margin: 20px;
+}
+.place-img {
+  height: 250px;
+  width: 290px;
+}
+.place-name {
+  font-size: 17px;
+  color: #000000;
+  font-family: 'Open Sans';
+}
