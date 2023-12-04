@@ -6,7 +6,7 @@ const DestinationItem = props => {
   const {imgUrl, name} = place
 
   return (
-    <li>
+    <li className="li">
       <div className="place-card">
         <img className="place-img" src={imgUrl} alt={name} />
         <p className="place-name"> {name} </p>
