@@ -1,5 +1,8 @@
 /* Write your CSS here */
 
+.li{
+  list-style-type: none;
+}
 .place-card {
   margin: 20px;
 }
